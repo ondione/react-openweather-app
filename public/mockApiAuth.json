@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "message": "OK",
+    "id_user": "1",
+    "firstname": "ousmane",
+    "last_name": "ndione",
+    "login": "ondione",
+    "telephone": "7772450",
+    "adresse": "Lyon ",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2OTI1NzAzMTMsImp0aSI6InhKWE5iemlLQUxyb203RFlsR2RkXC95bXpXVmxSdWpxYmFRPT0iLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6MzAwMCIsIm5iZiI6MTY5MjU3MDMyMywiZXhwIjoxNjkyNTcwOTEzLCJkYXRhIjp7ImlkIjoiMSIsIm5hbWUiOiJvbmRpb25lIiwidGltZSI6MTY5MjU3MDkxMywiaXNfYXV0aCI6dHJ1ZX19.-rZhWvMsWV9ZtFzn1jTWnZts0ObGK2IjSlAMwa3gWBtXvYAVm799_iRP31QI4wZ-3tW-ZHHdSJf_qleAlzBKMg",
+    "role": "client"
+    
+}
