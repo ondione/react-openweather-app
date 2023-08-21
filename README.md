@@ -48,8 +48,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### App Setup 
 
 You need to create a .env file in project root contain the constant below :
-REACT_APP_API_URL = 
-REACT_APP_API_OPENWEATHER = https://api.openweathermap.org/data/2.5/weather
+
+REACT_APP_API_URL =                                                                                                                                                 
+REACT_APP_API_OPENWEATHER = https://api.openweathermap.org/data/2.5/weather                                                                                       
 REACT_APP_OPENWEATHER_KEY =  api key you get from subscription onpenwathermap.org
 REACT_APP_OPENWEATHER_ICON = http://openweathermap.org/img/wn/
 REACT_APP_IS_AUTH_LOCAL = true  // for local mock connexion any user an pass
