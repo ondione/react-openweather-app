@@ -45,6 +45,10 @@ const  AuthForm:FC = () => {
       if( res && res.status === "success" && res.message === "OK"){
         dispatch( LoginActionSuccess({ 
           isLogged: true,
+<<<<<<< Updated upstream
+=======
+          login:username,
+>>>>>>> Stashed changes
           sessiondata: JSON.stringify(res),
           token:res.token,
         }));

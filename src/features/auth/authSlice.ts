@@ -1,4 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
+<<<<<<< Updated upstream
+=======
+import { RootState } from '../../app/store';
+
+export interface authI {
+    login: string;
+    password:string;
+    isLogged:string;
+    sessiondata:string[],
+    token:string;
+};
+>>>>>>> Stashed changes
 
 export const authSate = {
     auth:{
@@ -6,8 +18,12 @@ export const authSate = {
         password:"",
         isLogged:false,
         sessiondata:[],
+<<<<<<< Updated upstream
         token:'',
         refreshToken:''
+=======
+        token:''
+>>>>>>> Stashed changes
     }
 };
 
@@ -37,7 +53,11 @@ export const authSlice = createSlice({
         }
     }
 });
+<<<<<<< Updated upstream
 
 export const selectAuth = (state:any) => state.auth.auth;
+=======
+export const selectAuth=(state:RootState)=>state.auth.auth;
+>>>>>>> Stashed changes
 export const { LoginActionRequest, LoginActionSuccess, LogoutActionRequest} = authSlice.actions;
 export default authSlice.reducer;

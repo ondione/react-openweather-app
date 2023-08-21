@@ -1,47 +1,48 @@
 {
     "coord":
     {
-        "lon": -0.1257,
-        "lat": 51.5085
+        "lon": 4.5833,
+        "lat": 45.75
     },
     "weather": [
     {
-        "id": 803,
+        "id": 804,
         "main": "Clouds",
-        "description": "broken clouds",
+        "description": "overcast clouds",
         "icon": "04d"
     }],
     "base": "stations",
     "main":
     {
-        "temp": 292.03,
-        "feels_like": 292.17,
-        "temp_min": 291,
-        "temp_max": 293.01,
-        "pressure": 1011,
-        "humidity": 84
+        "temp": 298.59,
+        "feels_like": 298.34,
+        "temp_min": 297.9,
+        "temp_max": 299.19,
+        "pressure": 1015,
+        "humidity": 44
     },
     "visibility": 10000,
     "wind":
     {
-        "speed": 5.66,
-        "deg": 230
+        "speed": 0.19,
+        "deg": 272,
+        "gust": 0.6
     },
     "clouds":
     {
-        "all": 75
+        "all": 100
     },
-    "dt": 1692432488,
+    "dt": 1692433202,
     "sys":
     {
         "type": 2,
-        "id": 2075535,
-        "country": "GB",
-        "sunrise": 1692420710,
-        "sunset": 1692472617
+        "id": 2007821,
+        "country": "FR",
+        "sunrise": 1692420373,
+        "sunset": 1692470693
     },
-    "timezone": 3600,
-    "id": 2643743,
-    "name": "London",
+    "timezone": 7200,
+    "id": 2996943,
+    "name": "Arrondissement de Lyon",
     "cod": 200
 }

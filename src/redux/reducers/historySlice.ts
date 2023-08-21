@@ -42,7 +42,11 @@ export const selectHistoryByTown = createSelector(
 	(allHistory, ville) => {
         return allHistory.filter( (item:histdata) => { 
             return item.ville === ville 
+<<<<<<< Updated upstream
         })
+=======
+        })[0]
+>>>>>>> Stashed changes
     }
 );
 
