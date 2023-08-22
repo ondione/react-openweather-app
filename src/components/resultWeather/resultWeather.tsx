@@ -4,22 +4,14 @@ import SearchWeatherchComponent from '../searchWeather/SearchWeather';
 import { WeatherType } from '../../types/weatherType';
 import shareService from '../../services/shareService';
 import { addHistory } from '../../redux/reducers/historySlice'
-<<<<<<< Updated upstream
-import {  useAppDispatch } from '../../app/hooks';
-=======
 import { useAppDispatch } from '../../app/hooks';
->>>>>>> Stashed changes
 import ResultDisplay  from '../resultDisplay';
 
 const ResultWeatherComponent:FC = () => {
     const [ searchWeather, setSearchWeather ] = useState("");
     const [ weatherData , setWeatherData ] = useState<WeatherType>();
     const [ weatherUnit , setWeatherUnit ] = useState<string>('standard');
-<<<<<<< Updated upstream
-    const [ error , setError] = useState('');
-=======
     const [ error, setError] = useState('');
->>>>>>> Stashed changes
     const dispatch = useAppDispatch();
     const unitMesure = shareService.getUnitMesures();
 
@@ -30,18 +22,12 @@ const ResultWeatherComponent:FC = () => {
         }
         if(searchWeather!== ""){
             //call service for search weather
-<<<<<<< Updated upstream
-=======
             //getData();
->>>>>>> Stashed changes
             return shareService.searchWeather(searchWeather , weatherUnit).then((resp:any | null) =>{
                return resp.json();
             }).then(json =>{
                 dispatch(addHistory({ville:`${searchWeather}`, data:json}))
-<<<<<<< Updated upstream
-=======
                 setSearchWeather("");
->>>>>>> Stashed changes
                 setWeatherData(json);
             });
         }
@@ -51,28 +37,16 @@ const ResultWeatherComponent:FC = () => {
             return res.json();
         }).then(json =>{
            dispatch(addHistory({ville:`${searchWeather}`, data:json}))
-<<<<<<< Updated upstream
-          setWeatherData(json);
-        })
-    }
-    useEffect(() => { 
-        //getData();
-=======
            setWeatherData(json);
            setSearchWeather("");
         })
     }
     useEffect(() => { 
        //getData();
->>>>>>> Stashed changes
     },[]);
 
     return (
         <>
-<<<<<<< Updated upstream
-            
-=======
->>>>>>> Stashed changes
             <section id="home" className="search">
                 <div>
                     <div className="col-sm-6">

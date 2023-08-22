@@ -26,11 +26,7 @@ class ShareService {
     getUnitMesures =()=>{
         return {
             standard:{temperature:'K', pressure:'hPa' , humidity:'%' , visibility:'m', speed:'m/s', guest:'m/s', all:'%' , rain:'mm' , snow:'m'},
-<<<<<<< Updated upstream
-            metric:{temperature:'C', pressure:'hPa' , humidity:'%' , visibility:'m', speed:'m/s', guest:'m/s', all:'%' , rain:'mm' , snow:'m'},
-=======
             metric:{temperature:'°C', pressure:'hPa' , humidity:'%' , visibility:'m', speed:'m/s', guest:'m/s', all:'%' , rain:'mm' , snow:'m'},
->>>>>>> Stashed changes
             imperial:{temperature:'F', pressure:'hPa' , humidity:'%' , visibility:'m', speed:'mile/hour', guest:'mile/hour', all:'%' , rain:'mm' , snow:'m'}
         };
     }
