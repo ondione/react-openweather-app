@@ -6,10 +6,6 @@ type Props = {
 }
 
 const TabsComponent:FC<Props> = ({children}) => {
-<<<<<<< Updated upstream
-    console.log(children , " children")
-=======
->>>>>>> Stashed changes
     const [selectTab, setSelectedTab] = useState(0);
     return (
         <>
